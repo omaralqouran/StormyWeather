@@ -1,0 +1,120 @@
+
+@import url(http://fonts.googleapis.com/css?family=Oxygen:400,700);
+
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, img, ins, kbd, q, s, samp, small, strike, strong, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+html {
+    background-image: url("../images/stormy-weather-background.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 100%;
+}
+
+body {
+    font-family: Oxygen, Arial, sans-serif;
+}
+
+header {
+    margin: 0;
+    background: rgba(0,0,0,.5);
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 3rem;
+    color: white;
+    padding: 1rem;
+    line-height: 4rem;
+}
+
+p {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.text-box {
+    text-align: left;
+    color: white;
+    opacity: 1;
+    width: 20%;
+    background: rgba(0,0,0,0.5);
+    padding: 1.5rem;
+    border: 4px double #fff;
+    margin-left: 5rem;
+    margin-top: 5rem;
+    line-height: 20px;
+    font-size: 16px;
+}
+
+.icon {
+    color: #fff;
+    opacity: .5;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+div {
+    padding: 20px;
+}
+
+.icon:hover {
+    opacity: 1;
+}
+
+@media only screen
+and (max-width: 400px) {
+    .icon:first-child {
+        opacity: 1;
+    }
+}
+
+@media only screen
+and (max-width: 600px) {
+    .icon:nth-child(2) {
+        opacity: 1;
+    }
+}
+
+@media only screen
+and (min-width: 800px) {
+    .icon:last-child {
+        opacity: 1;
+    }
+}
